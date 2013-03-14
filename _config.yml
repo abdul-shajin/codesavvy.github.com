@@ -7,7 +7,7 @@ rdiscount:
 title : codesavvy.send(Blog)!
 production_url : http://codesavvy.github.com
 description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Abdul Shajin."
-disqus_shortname: caarlos0blog
+disqus_shortname: codesavvysblog
 analytics: UA-39282485-1
 #gauges: 50f2b533613f5d7c8000000c
 author :
