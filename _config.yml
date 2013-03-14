@@ -1,6 +1,7 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
+#permalink: /:categories/:year/:month/:day/:title 
+permalink: /:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
@@ -9,13 +10,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Codesavvy's Blog!!
+tagline: Coffee.send(:code)
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : Abdul Shajin
+  email : shajinvk@gmail.com
+  github : codesavvy
+  twitter : rubysavvy
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -26,7 +27,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.com
+production_url : http://codesavvy.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -101,9 +102,9 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-39282485-1'
     getclicky :
-      site_id : 
+      site_id : 100590503
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
 
@@ -113,7 +114,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : 'twitter'
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
