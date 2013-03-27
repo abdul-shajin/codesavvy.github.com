@@ -35,9 +35,9 @@ config.assets.precompile += %w( .svg .eot .woff .ttf )
 
  - If you are using Sass or Less with Rails 3.1 (so your css file has the `.scss` or `.less` extension), then change the `url(...)` in the font declaration to `font-url(...)`.
 
- If you are not, then your css file should have the extension .css.erb and the font declaration should be like this `url('<%= asset_path(...) %>')`.
+ If you are not, then your css file should have the extension `.css.erb` and the font declaration should be like this `url('<%= asset_path(...) %>')`.
 
- - Finally, use your font in your css like you declared it in the font-family part. Since it was declared capitalized, you can use it like this:
+ - Finally, use your font in your css like you declared it in the `font-family` part. Since it was declared capitalized, you can use it like this:
 
 {% highlight css %}
 font-family: 'Icomoon';
