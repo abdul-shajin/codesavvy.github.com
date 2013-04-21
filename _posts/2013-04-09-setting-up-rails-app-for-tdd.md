@@ -170,5 +170,11 @@ In command line,
 
 
 
+TIPS:
+To remove test unit, Do as given below in Guardfile
+{% highlight ruby%}
+guard 'spork', :rspec_env => { 'RAILS_ENV' => 'test' }, :test_unit => false do
+{% endhighlight %}
+
 
 
