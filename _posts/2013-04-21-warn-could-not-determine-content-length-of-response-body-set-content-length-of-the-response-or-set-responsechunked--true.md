@@ -21,3 +21,5 @@ group :development do
   gem 'thin'
 end
 {% endhighlight %}
+
+Do `bundle` have fun ;)
