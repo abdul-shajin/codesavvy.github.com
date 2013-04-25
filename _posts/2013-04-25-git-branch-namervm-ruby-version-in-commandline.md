@@ -42,4 +42,4 @@ export PS1="$YELLOWツ\[$txtwht\]\w \[$txtred\]\$(dev_info) \[$txtrst\]"
 # export PS1="\w \$(dev_info) "
 {% endhighlight %}
 
-(My contribution is the smiley char which keeps me happy ;) )
+(My contribution is the smiley char ;) )
