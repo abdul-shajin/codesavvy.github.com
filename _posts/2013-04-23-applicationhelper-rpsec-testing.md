@@ -8,4 +8,4 @@ To get an idea, refer this [link](https://www.relishapp.com/rspec/rspec-rails/v/
 
 create `helper` folder and add helper spec file
 
-You can hall 'helper' function to call the helper functions.
+You can call 'helper' function to call the helper functions.
